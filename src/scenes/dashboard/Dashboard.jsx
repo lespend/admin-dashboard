@@ -102,7 +102,7 @@ const Dashboard = () => {
                 </Grid>
 
                 {/* Строка 3 */}
-                <Grid item xs={4}>
+                <Grid item xs={12} lg={4}>
                     <Box p='15px' bgcolor={colors.primary[400]} height='100%'>
                         <Typography variant='h5'>
                             Цели
@@ -118,7 +118,7 @@ const Dashboard = () => {
                         </Box>
                     </Box>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} lg={4}>
                     <Box p='15px' bgcolor={colors.primary[400]} height='100%'>
                         <Typography variant='h5'>
                             Продажи
@@ -128,7 +128,7 @@ const Dashboard = () => {
                         </Box>
                     </Box>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} lg={4}>
                     <Box p='15px' bgcolor={colors.primary[400]} height='100%'>
                         <Typography variant='h5'>
                             Географическая карта
